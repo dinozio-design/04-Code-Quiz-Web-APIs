@@ -1,12 +1,10 @@
-# 04 Web APIs: Code Quiz
+# 04 - Qode Quiz | Web APIs
+### From Scratch — Create a Timed Coding Assessment Quiz
+<br>
 
-## Your Task
+## Description
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
-
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
-
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+In this week's Challenge! I created a web application from scratch! A typical coding assessment; I built a timed coding quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I wrote. It has a clean, polished, and responsive user interface. 
 
 ## User Story
 
@@ -38,62 +36,30 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/images/04-web-apis-homework-demo.gif)
 
-## Grading Requirements
+## My Work
+I started with a blank page and a pencil, and I wireframed my HTML page. Immediately after, I wrote some of the pseudo logic code on the wireframe in order to mapout the flow. I then reviewed the modules as I built my first prototype. 
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+### My Initial PseudoCode
+> The following image shows the my initial wireframe and pseudo code snipets:
 
-This Challenge is graded based on the following criteria: 
+![Wireframe and Pseudo Code Image](./assets/images/#)
 
-### Technical Acceptance Criteria: 40%
+### Deployed Links
 
-* Satisfies all of the preceding acceptance criteria.
+1. You can find the URL of my deployed application **here:** <br>[04-Code-Quiz-Web-APIs - link](https://dinozio-design.github.io/04-Code-Quiz-Web-APIs/)
 
-### Deployment: 32%
+2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/04-Code-Quiz-Web-APIs.git)
 
-* Application deployed at live URL.
+### Images of my App
+> The following image shows the my actual web application's appearance and functionality:
 
-* Application loads with no errors.
+![Timed Quizz](./assets/images/#)
 
-* Application GitHub URL submitted.
+## References
+I used files and resources provided by BCS : GitLab repo UTOR-VIRT-FSF-PT-04-2023-U-LOLC
 
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+- - -
+### Authors Notes:<br>
+_This README and accompanying repo have been brought to you by:_<br>
+© Sam Azimi - 2023 CodeCamp Studen.<br> 
+Confidential and Proprietary. All Rights Reserved.
