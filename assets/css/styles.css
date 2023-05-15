@@ -102,6 +102,7 @@ footer {
 }
 .rightOrWrong{
     padding: 1rem;
+    background-color: lightgray;
 }
 .footerText {
     font-size: .75rem;
