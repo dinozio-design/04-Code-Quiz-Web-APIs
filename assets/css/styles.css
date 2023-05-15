@@ -1,0 +1,128 @@
+/* this file is to be developed last */
+:root{
+    /* initial colour and size set - for 576px or smaller */
+    --mobile-bordr-color: white;
+    --mobile-bordr-style: solid;
+    --mobile-bordr-width: Small;
+    --mobile-border-radius: 7x;
+    --mobile-bckgrnd: black;
+    --mobile-color: rgb(246, 244, 241);
+    --mobile-anchor-color: #ed8df1 ;
+    --mobile-headings-color: rgb(240, 156, 0);
+    --mobile-shaddow-color: rgb(240, 156, 0);
+    /* desktop size min 992px */
+    --main-bordr-color: black;
+    --main-bordr-style: solid;
+    --main-bordr-width: medium;
+    --main-border-radius: 3px;
+    --main-bckgrnd: white;
+    --main-color: darkblue;
+    --main-card-bckgrnd: lightgrey;
+    --main-anchor-color: blue;
+    --main-headings-color: rgb(26, 0, 57);
+}
+html {
+    /* set 1rem to 10px */
+    font-size: 62.5;
+}
+body {
+    font-family: Helvetica,Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--mobile-color);
+    background-color: var(--mobile-bckgrnd);    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* margin-top: 2rem; */
+    margin-bottom: 0.9rem;
+    color: var(--mobile-headings-color);
+    font-weight: 500;
+    line-height: 1.1;
+}
+h1 {
+    padding: 1rem 1.2rem;  
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1.25rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+header {
+    width: 96%;
+    margin: 0 auto;
+    text-align: right;
+}
+aside{
+    width: 25%;
+    background-color: var(--mobile-color) ;
+}
+main {
+    width: 96%;
+    margin: 2rem auto;
+    display: flex;
+}
+footer {
+    margin: 1.5rem;
+    padding-top: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#timeBox{
+    font-size: .75rem;
+    border-style: dashed;
+    border-width: small;
+    padding: .5rem;
+}
+.container {
+    width: 75%;
+}
+.qAndA{
+    background-color: lightgray;
+    padding: 3.5rem 1rem;
+}
+.rightOrWrong{
+    padding: 1rem;
+}
+.footerText {
+    font-size: .75rem;
+}
+/* MQ */
+@media screen and (min-width: 760px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    body{
+        color: var(--main-color);
+        background-color: var(--main-bckgrnd);
+    } 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--main-headings-color);
+    }  
+    header {  
+        background: var(--main-bckgrnd);
+        color: var(--main-color);
+    }
+}
