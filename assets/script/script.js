@@ -8,6 +8,7 @@ var lineFour = document.getElementById("lineFOUR");
 var lineFive = document.getElementById("lineFIVE");
 var chosenOption = document.querySelector(".options");
 var nextQuestionBtn = document.createElement("button");
+console.log(chosenOption);
 
 const questions = {
     q1: {
@@ -20,18 +21,18 @@ const questions = {
     },
     q2: {
         quesT: "Do you know the meaning of Lipsum? (answer is B)",
-        A: "1. loerm",
-        B: "2. Ipsum",
-        C: "3. I dont know",
-        D: "all of the above",
+        A: "1. color",
+        B: "2. Ip address",
+        C: "3. knowledge",
+        D: "4. any of the two",
         answerIndex: 2
     },
     q3: {
         quesT: "I am running out of of Lipsum? (answer is C)",
-        A: "1. loerm",
-        B: "2. Ipsum",
-        C: "3. I dont know",
-        D: "all of the above",
+        A: "1. lsn't",
+        B: "2. maybe",
+        C: "3. perhaps",
+        D: "4. all of the above",
         answerIndex: 3
     }
 }
@@ -93,11 +94,11 @@ var quizRUN = function () {
     startQuizBtn.style.display = "none";
     nextQuestionBtn.style.display = "block";
     tryQ= Object.values(questions)[index];
-    console.log(tryQ);
+    // console.log(tryQ);
     renderDisplay();
+    chosenOption.addEventListener("click",choices);
 
     // next question
 }
 startQuizBtn.addEventListener("click",quizRUN);
-// nextQuestionBtn.addEventListener("click",checkAnswer);
-chosenOption.addEventListener("click", choices);
+nextQuestionBtn.addEventListener("click",checkAnswer);

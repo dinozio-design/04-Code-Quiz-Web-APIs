@@ -6,8 +6,8 @@
     --mobile-bordr-width: Small;
     --mobile-border-radius: 7x;
     --mobile-bckgrnd: black;
-    --mobile-color: rgb(246, 244, 241);
-    --mobile-anchor-color: #ed8df1 ;
+    --mobile-color: rgb(128, 79, 5);
+    --mobile-aside-color: lightgray; ;
     --mobile-headings-color: rgb(240, 156, 0);
     --mobile-shaddow-color: rgb(240, 156, 0);
     /* desktop size min 992px */
@@ -57,6 +57,7 @@ h3 {
 }
 h4 {
     font-size: 2rem;
+    color: var(--mobile-aside-color);
 }
 h5 {
     font-size: 1.5rem;
@@ -112,8 +113,9 @@ footer {
 }
 .options{
     padding: 2rem;
-    background-color: white;
     display: none;
+    border: var(--mobile-color);
+    border-style: dotted;
 }
 .btn{
     margin-top: 3rem;
@@ -141,7 +143,6 @@ footer {
     h1,
     h2,
     h3,
-    h4,
     h5,
     h6 {
         color: var(--main-headings-color);
@@ -149,5 +150,11 @@ footer {
     header {  
         background: var(--main-bckgrnd);
         color: var(--main-color);
+    }
+    .options{
+        background-color: white;
+    }
+    #lineONE{
+        background-color: lightgray;
     }
 }
