@@ -3,7 +3,7 @@ var startPG = document.querySelector(".qAndA");
 var startQuizBtn = document.createElement("button");
 var startMSG = document.getElementById("lineONE");
 
-var questions = {
+const questions = {
     q1: {
         quesT: "what is the meaning of Lipsum?",
         A: "1. loerm",
@@ -13,7 +13,7 @@ var questions = {
         answerIndex: 1,
     },
     q2: {
-        quesT: "what is the meaning of Lipsum?",
+        quesT: "Do you know the meaning of Lipsum?",
         A: "1. loerm",
         B: "2. Ipsum",
         C: "3. I dont know",
@@ -21,6 +21,8 @@ var questions = {
         answerIndex: 2,
     }
 }
+
+// console.log(Object.values(questions)[1]);
 
 // make it a subrouitine to reset the test
 
@@ -36,10 +38,19 @@ var quizRUN = function () {
     // clear the button
     startQuizBtn.style.display = "none";
 
-    // for loop to loop around the list questions in the array
-    for (question in questions){
-        console.log(typeof (question));
+    function waitForAnswer (){
+        
     }
+    // for loop to loop around the list questions in the array
+    var tryQ = [];
+    var index = 0;
+    for (var question in questions){
+        tryQ.push(Object.values(questions)[index]);
+        waitForAnswer();
+        index++;
+
+    }
+
 }
 
 
