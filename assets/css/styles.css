@@ -99,6 +99,9 @@ footer {
 .qAndA{
     background-color: lightgray;
     padding: 3.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .rightOrWrong{
     padding: 1rem;
@@ -106,6 +109,27 @@ footer {
 }
 .footerText {
     font-size: .75rem;
+}
+.options{
+    padding: 2rem;
+    background-color: white;
+    display: none;
+}
+.btn{
+    margin-top: 3rem;
+    width: 25%;
+    position: inherit;
+}
+.correct{
+    background-color: lightgreen;
+    color: darkblue;
+}
+.wrong{
+    background-color: lightcyan;
+    color: red;
+}
+#lineONE{
+    background-color: lightgray;
 }
 /* MQ */
 @media screen and (min-width: 760px) {
